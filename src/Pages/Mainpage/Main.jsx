@@ -4,6 +4,7 @@ import Home from '../../Lauouts/Home/Home';
 import Header from '../Header/Header';
 import Donation from '../../Lauouts/Donation/Donation';
 import Stats from '../../Lauouts/Stats/Stats';
+import Selected from '../../COMPONENTS/Selecteditem/Selected';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         <Home></Home>
         <Donation></Donation>
         <Stats></Stats>
+        <Selected></Selected>
       </Outlet>
     </div>
   );
