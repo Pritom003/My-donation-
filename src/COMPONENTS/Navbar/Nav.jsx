@@ -7,11 +7,11 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 shadow-lg">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">
+    
       <img className='h-10 w-28' src='https://i.ibb.co/6rxw5rh/Logo.png'></img>
-    </a>
+    
   </div>
   <div className="flex-none">
     <ul className=" flex  gap-5 px-1">
@@ -29,7 +29,6 @@ const Nav = () => {
 
     </li>
     <li>
-
 <NavLink
 to="/donations"
 className={({ isActive, isPending }) =>
