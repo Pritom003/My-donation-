@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div className='max-w-[1400px] ms-auto px-4'>
       <Header></Header>
-      this is the main page
+      
       <Outlet>
         <Home></Home>
         <Donation></Donation>

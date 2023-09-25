@@ -2,14 +2,15 @@
 
 const Hero = () => {
   return (
-    <div>
+    <div >
+      <div >
       <div className=" w-full  ">  
        
-       <div className="hero  bg-white  " style={{backgroundImage: ' url(https://i.ibb.co/nDGMbYH/Food.png?fbclid=IwAR2_wgP4BrPD7GtY8p_n3kATOicerSlt0jvhk7eKHKRdUlp33UU5ebWvZvU)'}}>
-  <div className="hero-overlay  bg-opacity-90"></div>
+       <div className="hero  " style={{backgroundImage: ' url(https://i.ibb.co/7V28WFk/bgimg.jpg'}}>
+  <div className="hero-overlay  bg-white  bg-opacity-90"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="w-[60vw]">
-      <h1 className="text-2xl pb-4 font-bold">I Grow By Helping People In Need</h1>
+      <h1 className="text-2xl text-black pb-4 font-bold">I Grow By Helping People In Need</h1>
 
     <form className="w-full">   
     <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -35,6 +36,7 @@ const Hero = () => {
 </div>
  
        </div>
+    </div>
     </div>
   );
 };

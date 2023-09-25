@@ -1,6 +1,6 @@
-import React from 'react';
+
 import { NavLink } from 'react-router-dom';
-import Home from '../../Lauouts/Home/Home';
+
 
 const Nav = () => {
 
@@ -35,7 +35,7 @@ className={({ isActive, isPending }) =>
 isPending ? "pending" : isActive ? "text-red-400 underline " : ""
 }
 >
-Donate Now!
+Donetion
 </NavLink>
 
 </li>
@@ -60,36 +60,3 @@ Statistics
 };
 
 export default Nav;
-// <li>
-{/* <NavLink
-  to="/"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-red-300 underline" : ""
-  }
->
-  Home
-</NavLink> */}
-
-// </li>
-{/* <li>
-<NavLink
-  to="/donations"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-red-300 underline":""
-  }
->
-Donation
-</NavLink>
-
-</li>
-<li>
-<NavLink
-  to="/stats"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? " text-red-300 underline" : ""
-  }
->
-Statistics
-</NavLink>
-
-</li> */}

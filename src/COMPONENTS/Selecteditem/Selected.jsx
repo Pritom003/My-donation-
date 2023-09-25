@@ -62,13 +62,14 @@ if(!isexist){
   return (
     <div>
 
-  <div>
-    <img src={picture}   className='relative w-screen h-[60vh] ' />
-    <div className=' h-12 w-[95vw] absolute -mt-12'>
+  <div className='grid justify-center align-middle mt-10'>
+    <img src={picture}   className=' h-[60vh] w-full' />
+    <div className='bg-black bg-opacity-25 w-full sm:h-6
+     -mt-16   '>
       <button 
       onClick={handleselecteddonation}
-    style={colorbtn} className='absolute -mt-12 md:-mt-20 rounded md:rounded-lg
-       text-white font-semibold p-2 md:p-6'> Donate $ {price}</button>
+    style={colorbtn} className=' rounded  md:rounded-lg
+       text-white font-semibold p-2 md:p-4 ml-2 mt-2'> Donate $ {price}</button>
        </div>
      
   </div>

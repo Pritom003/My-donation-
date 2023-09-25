@@ -22,7 +22,7 @@ const handledonation=()=>{
 
   
   return (
-    <div>
+    <div className='grid justify-center align-middle'>
       <div className="max-w-xs" style={cardStyle}>
         <a href="#">
           <img className="rounded-t-lg" src={picture} alt="" />

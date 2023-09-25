@@ -1,6 +1,6 @@
 
 import { useLoaderData } from "react-router-dom";
-import Displacard from "../../COMPONENTS/Navbar/displasection/displacard";
+import Displacard from "../../COMPONENTS/displasection/displacard";
 import Hero from "../../COMPONENTS/Hero/Hero";
 
 
