@@ -27,7 +27,7 @@
 
     "text_color": "#FF444A",
 
-    "button_bg_color": "rgba(0, 82, 255, 0.20)",
+    "button_bg_color": "rgba(255, 68, 74, 0.20)",
 
     "description": "Support educational initiatives that aim to provide quality education to underprivileged children. Your contribution can help brighten the future of these students by giving them access to better educational resources.",
 
@@ -44,7 +44,7 @@
 
     "text_color": "#79C23F",
 
-    "button_bg_color": "rgba(0, 82, 255, 0.20)",
+    "button_bg_color": "rgba(121, 194, 63, 0.20)",
 
     "description": "Provide clean and safe drinking water to underprivileged children in regions where access to clean water is scarce. Your contribution can save lives and improve the health of these children.",
 
@@ -95,7 +95,7 @@
 
     "text_color": "#79C23F",
 
-    "button_bg_color": "rgba(0, 82, 255, 0.20)",
+    "button_bg_color":"rgba(121, 194, 63, 0.20)",
 
     "description": "Provide clean and safe drinking water to underprivileged children in regions where access to clean water is scarce. Your contribution can save lives and improve the health of these children.",
 
@@ -106,13 +106,13 @@
     "picture": "https://i.ibb.co/yRS5Fr8/Education.png",
     "title": "Good Education",
     "category": "Clothing",
-    "category_bg_color": "rgba(255, 68, 74, 0.20)",
+    "category_bg_color": "rgba(255, 68, 74, 0.20);",
 
     "card_bg_color": "rgba(255, 68, 74, 0.15)",
 
     "text_color": "#FF444A",
 
-    "button_bg_color": "rgba(0, 82, 255, 0.20)",
+    "button_bg_color": "rgba(255, 68, 74, 0.20)",
 
     "description": "Provide clean and safe drinking water to underprivileged children in regions where access to clean water is scarce. Your contribution can save lives and improve the health of these children.",
 
@@ -159,11 +159,11 @@
     "category": "Education",
     "category_bg_color": "rgba(255, 68, 74, 0.20)",
 
-    "card_bg_color": "rgba(255, 68, 74, 0.15)",
+    "card_bg_color": "rgba(255, 68, 74, 0.20)",
 
     "text_color": "#FF444A",
 
-    "button_bg_color": "rgba(0, 82, 255, 0.20)",
+    "button_bg_color": "rgba(255, 68, 74, 0.20)",
 
     "description": "Support educational initiatives that aim to provide quality education to underprivileged children. Your contribution can help brighten the future of these students by giving them access to better educational resources.",
 
@@ -180,7 +180,7 @@
 
     "text_color": "#79C23F",
 
-    "button_bg_color": "rgba(0, 82, 255, 0.20)",
+    "button_bg_color": "rgba(121, 194, 63, 0.20)",
 
     "description": "Provide clean and safe drinking water to underprivileged children in regions where access to clean water is scarce. Your contribution can save lives and improve the health of these children.",
 

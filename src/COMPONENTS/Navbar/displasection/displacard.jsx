@@ -28,9 +28,11 @@ const handledonation=()=>{
           <img className="rounded-t-lg" src={picture} alt="" />
         </a>
         <div className="p-5">
-          <Link to={`/donate/${id}`}> <button style={buttonStyle} onClick={handledonation} className='p-2'>{category}</button></Link>
+          <Link to={`/donate/${id}`}> <button 
+          style={buttonStyle} onClick={handledonation} 
+          className='p-2 rounded-xl'>{category}</button></Link>
         
-          <p className="mb-3 font-normal">{title}</p>
+          <p className="mb-3 text-2xl font-normal">{title}</p>
         </div>
       </div>
     </div>

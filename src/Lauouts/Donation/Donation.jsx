@@ -1,9 +1,12 @@
 
 
 const Donation = () => {
+
+  const donations=JSON.parse(localStorage.getItem('selectedItem'))
+  console.log(donations,'go')
   return (
     <div>
-      your donations
+      feee
     </div>
   );
 };
