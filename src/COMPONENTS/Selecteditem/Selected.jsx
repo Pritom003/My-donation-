@@ -60,16 +60,20 @@ if(!isexist){
 
   }
   return (
-    <div>
+    <div className='w-full grid justify-start gap-2'>
 
   <div className='grid justify-center align-middle mt-10'>
-    <img src={picture}   className=' h-[60vh] w-full' />
-    <div className='bg-black bg-opacity-25 w-full sm:h-6
+    <img src={picture}   className=' h-[60vh]  ' />
+    <div className='bg-black bg-opacity-25 w-full sm:h-16
      -mt-16   '>
       <button 
       onClick={handleselecteddonation}
-    style={colorbtn} className=' rounded  md:rounded-lg
+    style={colorbtn} className=' rounded  md:rounded-lg mb-2
        text-white font-semibold p-2 md:p-4 ml-2 mt-2'> Donate $ {price}</button>
+       </div>
+       <div className='mt-8 '>
+        <h1 className='text-2xl mb-4 font-bold '>{title}</h1>
+        <p className='w-full'>{description}</p>
        </div>
      
   </div>

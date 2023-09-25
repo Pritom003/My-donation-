@@ -32,7 +32,7 @@ const handledonation=()=>{
           style={buttonStyle} onClick={handledonation} 
           className='p-2 rounded-xl'>{category}</button></Link>
         
-          <p className="mb-3 text-2xl font-normal">{title}</p>
+          <p className="mb-3 w-44 text-2xl font-normal">{title}</p>
         </div>
       </div>
     </div>

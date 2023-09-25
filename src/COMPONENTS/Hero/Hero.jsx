@@ -10,7 +10,7 @@ const Hero = () => {
   <div className="hero-overlay  bg-white  bg-opacity-90"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="w-[60vw]">
-      <h1 className="text-2xl text-black pb-4 font-bold">I Grow By Helping People In Need</h1>
+      <h1 className="text-2xl  text-black pb-4 font-bold">I Grow By Helping People In Need</h1>
 
     <form className="w-full">   
     <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
