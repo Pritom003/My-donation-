@@ -47,8 +47,12 @@ else{
          }
         </div>
         <div className="flex justify-center align-middle mt-5 gap-5">
-        <div className={selects.length<=4 && `hidden`}>
-        <button className="bg-primary p-2 rounded-lg text-white font-bold" onClick={()=>handleshowbtn(!isshow)}> see more</button>
+        <div className={selects.length<=4 && `hidden` }>
+          {isshow? '': <button className='bg-primary p-2 rounded-lg text-white font-bold'   onClick={()=>handleshowbtn(!isshow)}> see all</button>}
+            
+          
+         
+       
         
         </div>
         </div>

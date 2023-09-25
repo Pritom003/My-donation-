@@ -26,7 +26,7 @@ const DonCard = ({ditem}) => {
   <div className="p-6">
   
 <h3 className='font-semibold'>{category}</h3>
-<h1 className='font-bold text-2xl'>{title}</h1>
+<h1 className='font-bold text-xl text-black'>{title}</h1>
 <p className='font-semibold'>${price}</p>
 <button style={buttonStyle} className='text-white font-semibold p-2 rounded'>View Details</button>
 
