@@ -63,8 +63,8 @@ if(!isexist){
     <div className='w-full grid justify-start gap-2'>
 
   <div className='grid justify-center align-middle mt-10'>
-    <img src={picture}   className=' h-[60vh]  ' />
-    <div className='bg-black bg-opacity-25 w-full sm:h-16
+    <img src={picture}   className=' h-[60vh]  w-full ' />
+    <div className='bg-black bg-opacity-25  sm:h-16
      -mt-16   '>
       <button 
       onClick={handleselecteddonation}

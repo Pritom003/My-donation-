@@ -27,9 +27,9 @@ const handlechange =(value)=>{
   return (
     <div >
       <div >
-      <div className=" w-full  ">  
+      <div className=" w-full ">  
        
-       <div className="hero  " style={{backgroundImage: ' url(https://i.ibb.co/7V28WFk/bgimg.jpg'}}>
+       <div className="hero h-[60vh]" style={{backgroundImage: ' url(https://i.ibb.co/7V28WFk/bgimg.jpg ) '}}>
   <div className="hero-overlay  bg-white  bg-opacity-90"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="w-[60vw]">
