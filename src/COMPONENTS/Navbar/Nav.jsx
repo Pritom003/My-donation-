@@ -6,7 +6,7 @@ const Nav = () => {
 
 
   return (
-    <div className='sticky top-0 z-50'>
+    <div className=''>
       <div className="navbar bg-base-100 shadow-lg ">
   <div className="flex-1">
     

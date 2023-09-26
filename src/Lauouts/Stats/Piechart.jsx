@@ -4,7 +4,7 @@ import useFetch from '../../COMPONENTS/HOOK/UseFetchdata';
 
 const COLORS = ['#0088FE', '#FF8042'];
 
-const Pieee=({donet})=>{
+const Pieee=({donet=0})=>{
 
     const data=donet 
     

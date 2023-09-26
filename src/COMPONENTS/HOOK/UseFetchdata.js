@@ -13,7 +13,7 @@ fetch('/allDonation.json')
 },[])
 
 
-console.log('data',data)
+
 
   
   return[data,setdata]

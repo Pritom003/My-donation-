@@ -8,12 +8,13 @@ const Stats = () => {
   console.log(data, 'dd');
   
   const donetion = JSON.parse(localStorage.getItem('selectedItem'));
-  const donet = donetion.length;
+  const donet = donetion ? donetion.length:0
 
   return (
     <div>
+     <Pieee donet={donet} />
     
-      <Pieee donet={donet} />
+      
     </div>
   );
 };

@@ -23,20 +23,24 @@ const handledonation=()=>{
 
   
   return (
-    <div className='grid justify-center align-middle'>
+   
+<Link to={`/donate/${id}`}>
+<div  className='grid justify-center align-middle'>
       <div className="max-w-xs" style={cardStyle}>
         <a href="#">
           <img className="rounded-t-lg" src={picture} alt="" />
         </a>
         <div className="p-5">
-          <Link to={`/donate/${id}`}> <button 
-          style={buttonStyle} onClick={handledonation} 
-          className='p-2 rounded-xl'>{category}</button></Link>
+           <button 
+          style={buttonStyle}  
+          className='p-2 rounded-xl'>{category}</button>
         
           <p className="mb-3 h-12 text-2xl font-normal">{title}</p>
         </div>
       </div>
-    </div>
+      </div>
+      </Link>
+    
   );
 };
 
