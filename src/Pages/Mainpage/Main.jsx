@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Donation from '../../Lauouts/Donation/Donation';
 import Stats from '../../Lauouts/Stats/Stats';
 import Selected from '../../COMPONENTS/Selecteditem/Selected';
+import SearchResult from '../../COMPONENTS/Hero/searchitem/SearchResult';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
         <Donation></Donation>
         <Stats></Stats>
         <Selected></Selected>
+        <SearchResult></SearchResult>
       </Outlet>
     </div>
   );

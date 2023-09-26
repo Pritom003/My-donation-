@@ -1,6 +1,29 @@
+import { useState } from "react";
+import useFetch from "../HOOK/UseFetchdata";
+
+
 
 
 const Hero = () => {
+  const [data,setdata]=useFetch()
+  // console.log('hooksss',data)
+const [input,setinput]=useState('') 
+
+
+const handlesubmit=(input)=>{
+const result =data.filter(item=>{
+return ( item && item.title && item.title.toLowerCase().includes(input))
+
+})
+console.log(result,'submit me')
+}
+const handlechange =(value)=>{ 
+  setinput(value)
+  setdata(value)
+
+}
+
+
   return (
     <div >
       <div >
@@ -12,7 +35,8 @@ const Hero = () => {
     <div className="w-[60vw]">
       <h1 className="text-2xl  text-black pb-4 font-bold">I Grow By Helping People In Need</h1>
 
-    <form className="w-full">   
+    
+    <form className="w-full " value={input} onSubmit={handlesubmit} >   
     <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative w-full">
         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -21,15 +45,20 @@ const Hero = () => {
             </svg>
         </div>
 
-        <input type="search" id="default-search" className="block w-full p-4 pl-10 text-sm
+        <input 
+         onChange={handlechange}
+        
+        type="search" id="default-search" className="block w-full p-4 pl-10 text-sm
          text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700
           dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required/>
-        <button type="submit" className="text-white absolute right-2.5 bottom-2.5
+          <button  type="submit" className="text-white absolute right-2.5 bottom-2.5
          bg-primary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary
          font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary dark:hover:bg-primary
           dark:focus:ring-primary">Search</button>
     </div>
 </form>
+    
+    
 
     </div>
   </div>

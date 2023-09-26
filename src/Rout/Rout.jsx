@@ -8,6 +8,7 @@ import Home from '../Lauouts/Home/Home';
 import Donation from '../Lauouts/Donation/Donation';
 import Stats from '../Lauouts/Stats/Stats';
 import Donate from "../Lauouts/Donate/Donate";
+import SearchResult from "../COMPONENTS/Hero/searchitem/SearchResult";
 
 const mymainrout =createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const mymainrout =createBrowserRouter([
           path:'/donate/:id',
           element:<Donate></Donate>,
           loader:()=>fetch('/allDonation.json')
+        },
+        {
+          path:'/search',
+          element:<SearchResult></SearchResult>
         }
     ]
   },

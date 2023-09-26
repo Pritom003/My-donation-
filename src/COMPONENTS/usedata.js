@@ -1,14 +1,20 @@
-import { useEffect, useState } from "react"
+// import { useState, useEffect } from 'react';
 
-const usedatadonate=()=>{
+// const useDonationData = () => {
+//   const [donationData, setDonationData] = useState(null);
+//   const [isLoading, setIsLoading] = useState(true);
 
-  const [item,setitem]=useState()
-  useEffect(()=>{
-    fetch('/allDonation.json')
-    .then(res=> res.json())
-    .then((data)=>setitem(data))
-  },[])
+//   useEffect(() => {
+//     // You can replace this URL with your actual API endpoint
+//     const apiUrl = '/allDonation.json';
 
-  return [item]
-}
-export default usedatadonate
+//     fetch(apiUrl)
+//       .then(res=>res.json)
+//       .then(data=>{setDonationData(data);
+//       setIsLoading(false);})
+//   }, []);
+
+//   return { donationData, isLoading };
+// };
+
+// export default useDonationData;

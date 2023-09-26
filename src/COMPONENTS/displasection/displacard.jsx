@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Displacard = ({ card }) => {
-  const {id, picture, title, category, card_bg_color, text_color, button_bg_color } = card;
+  const {id, picture, title, category,
+     card_bg_color, text_color, button_bg_color } = card;
 
   
   const cardStyle = {
