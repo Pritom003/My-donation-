@@ -35,13 +35,14 @@ const mymainrout =createBrowserRouter([
           loader:()=>fetch('/allDonation.json')
         },
 
-
+        {
+          path:'/donetiondetails',
+          element:<SearchResult></SearchResult>,
+          
+        },
     ]
   },
-  {
-    path:'/search',
-    element:<SearchResult></SearchResult>
-  },
+  
   
 ]);
 export default mymainrout;
