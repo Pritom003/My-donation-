@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Displacard = ({ card }) => {
+const Displacard = ({ cards }) => {
   const {id, picture, title, category,
-     card_bg_color, text_color, button_bg_color } = card;
+     card_bg_color, text_color, button_bg_color } = cards;
 
   
   const cardStyle = {
